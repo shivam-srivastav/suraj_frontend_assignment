@@ -1,0 +1,35 @@
+.App {
+  .wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .row-column {
+    list-style: none;
+
+    li {
+      width: 8rem;
+      margin: 1rem;
+      display: flex;
+      // flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    input {
+      width: 3rem;
+    }
+  }
+
+  table,
+  td,
+  th {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  th,
+  td {
+    padding: .8rem 1.6rem;
+  }
+}
